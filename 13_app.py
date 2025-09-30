@@ -5,8 +5,8 @@
 # else:
 #   instrucciones a ejercuratse si la condición es falsa
 # ejemplo
-nota = 17
+nota = 12
 if nota >=13:
-    print("Ud. a aprobado el curso")
+    print(f"Ud. a aprobado el curso , su nota es : {nota}")
 else:
-    print("Ud. no a logrado aprobar el curso")
+    print(f"Ud. no a logrado aprobar el curso, su nota es : {nota}")
