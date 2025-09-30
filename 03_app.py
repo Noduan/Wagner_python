@@ -33,6 +33,12 @@ print(f"¿Está activo? {is_active_client}")
 
 # Trabajando con fecha
 from datetime import date
-fecha_clase = date(2025, 9, 22) # (yyyy, mm, dd)
+fecha_clase = date(1987, 5, 31) # (yyyy, mm, dd)
 print(fecha_clase)
 print(f"la fecha de hoy: {fecha_clase}")
+
+fecha_formateada = fecha_clase.strftime("%d/%m/%Y")
+print(f"Fecha con formato es: {fecha_formateada}")
+
+# EXELENTE
+# Happy
