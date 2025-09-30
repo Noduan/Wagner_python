@@ -7,3 +7,7 @@
 frutas = ["manzana", "mandarina", "arandanos", "fresas", "maracuya"]
 for fruta in frutas:
     print(fruta)
+
+autos = ["vocho", "ferrary", "toyota", "nissan", "honda", "chavrolet"]
+for auto in autos:
+    print(auto)
